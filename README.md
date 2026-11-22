@@ -1,141 +1,36 @@
-<div align="center">
+[![Haojie Hu 胡浩杰 · Multimodal AI and video foundation models](assets/profile-header.jpg)](https://imhaojie.github.io/)
 
-# Hi, I'm Haojie Hu (胡浩杰) 👋
+I study how video models connect **sound, motion, and memory**. I’m a research intern at **Tencent Video** and a software engineering undergraduate at **Tongji University**. In 2027, I’ll join **Shanghai Jiao Tong University** for a Ph.D. with joint training at the **Shanghai Innovation Institute**.
 
-**Incoming Ph.D. Student · Shanghai Jiao Tong University × Shanghai Innovation Institute**
+[Academic homepage](https://imhaojie.github.io/) · [Publications](https://imhaojie.github.io/#publications) · [Email](mailto:3038115521@qq.com)
 
-Multimodal large language models · Video understanding & generation · World models
+### Research experience
 
-<br>
+**Tencent PCG / Tencent Video** · Research Intern, Video Foundation Models & World Models<br>
+*October 2026 – present*
 
-[![Website](https://img.shields.io/badge/Website-imhaojie.github.io-2563eb?style=flat-square&logo=googlechrome&logoColor=white)](https://imhaojie.github.io/)
-[![Email](https://img.shields.io/badge/Email-3038115521%40qq.com-d63b3b?style=flat-square&logo=gmail&logoColor=white)](mailto:3038115521@qq.com)
-[![GitHub](https://img.shields.io/github/followers/imhaojie?style=flat-square&logo=github&label=Followers&color=0f172a)](https://github.com/imhaojie)
+I contribute to **RallyVideo** training by evaluating the accuracy and consistency of training annotations. I also study how world models remember earlier events and how joint audio-video edits can keep sound and motion in sync.
 
-</div>
+[Research experience at Shanghai AI Laboratory, Tsinghua SIGS, and SJTU](https://imhaojie.github.io/#experience)
 
-<br>
+### Research & code
 
-## 🧑‍🔬 About Me
+**[To Think or Not to Think](https://arxiv.org/abs/2610.21613)** · NeurIPS 2026, poster<br>
+How much reasoning does a video clip need? Our controller chooses a reasoning budget before the first token. It retains about **96% of long-chain performance** at about **40% of the reasoning-token cost** in referring audio-visual segmentation. [Code](https://github.com/imhaojie/To-Think-or-Not-to-Think) · [Conference poster](https://neurips.cc/virtual/2026/poster/148558)
 
-- 🎓 B.Eng. in Software Engineering at **Tongji University** (2023 – 2027), and an incoming Ph.D. student at **Shanghai Jiao Tong University**, jointly trained at **Shanghai Innovation Institute**.
-- 🔬 I work on **multimodal large language models**, **video understanding and generation**, and **world models** — how models listen, look, reason, and revise.
-- 🛠️ I like research whose failures are visible, and I build tools that keep intermediate artifacts open to inspection.
-- 📫 Reach me at [3038115521@qq.com](mailto:3038115521@qq.com) or through my [homepage](https://imhaojie.github.io/).
+**[PosterMELD](https://arxiv.org/abs/2608.02218)** · Preprint<br>
+Agents turn a paper into an editable, print-ready poster. They plan around each slot’s capacity and repair individual regions when a figure or caption doesn’t fit. [Code](https://github.com/Shannon4Science/PosterMELD) · [Project page](https://imhaojie.github.io/PosterMELD/)
 
-## 📝 Publications
+**[Listening to the Motion](https://github.com/imhaojie/SKA-VCT)** · Under review<br>
+We check whether an object’s motion follows the sound to identify what is actually making noise in a busy scene. [Code](https://github.com/imhaojie/SKA-VCT)
 
-<table>
-  <tr>
-    <td width="230" align="center">
-      <a href="https://arxiv.org/abs/2610.21613"><img src="https://raw.githubusercontent.com/imhaojie/To-Think-or-Not-to-Think/main/assets/teaser.png" width="220" alt="To Think or Not to Think"></a>
-    </td>
-    <td>
-      <b><a href="https://arxiv.org/abs/2610.21613">To Think or Not to Think: Pre-Decisional Reasoning Budgets for Referring Audio-Visual Segmentation</a></b><br>
-      <b>Haojie Hu</b>, Senda Chen, Ying Shen, Lin Zhang<br>
-      <i>Annual Conference on Neural Information Processing Systems (NeurIPS), 2026</i><br>
-      <a href="https://arxiv.org/abs/2610.21613">arXiv:2610.21613</a><br>
-      <a href="https://arxiv.org/abs/2610.21613">Paper</a> · <a href="https://neurips.cc/virtual/2026/poster/148558">Conference</a> · <a href="https://github.com/imhaojie/To-Think-or-Not-to-Think">Code</a>
-    </td>
-  </tr>
-</table>
+### Selected builds
 
-## 📄 Preprints
+| Project | What I built with the team |
+| --- | --- |
+| [**GameBuddy**](https://github.com/imhaojie/GameBuddy) | A basketball companion that checks commentary against game footage, official events, and statistics. Silver Award at NBA × AWS BroadcastCode in Macau. |
+| [**DraftCode**](https://github.com/imhaojie/draftcode) | A draft simulator that models 30 NBA general managers and traces each pick through 1,500 Monte Carlo scenarios. Third place at the AWS Summit Shanghai hackathon. |
+| [**VoxSprite**](https://github.com/imhaojie/VoxSprite) | A playable instrument made from a voice sample, a browser, and an ESP32-S3 keyboard with reactive lights. |
+| [**Stardew-Valley**](https://github.com/imhaojie/Stardew-Valley) | A Cocos2d-x farming game with map interaction, collision detection, and inventory management. |
 
-<table>
-  <tr>
-    <td width="230" align="center">
-      <a href="https://arxiv.org/abs/2608.02218"><img src="https://imhaojie.github.io/assets/thumbs/postermeld-teaser.jpg" width="220" alt="PosterMELD"></a>
-    </td>
-    <td>
-      <b><a href="https://arxiv.org/abs/2608.02218">PosterMELD: Multi-Agent Paper-to-Poster Generation for Controllable Design Diversity with Editable Print-Ready Outputs</a></b><br>
-      <b>Haojie Hu</b>, Chenhao Dang, Yaojia Liu, Hengrui Kang, Conghui He, Weijia Li<br>
-      <i>arXiv:2608.02218</i><br>
-      <a href="https://arxiv.org/abs/2608.02218">Paper</a> · <a href="https://github.com/imhaojie/PosterMELD">Code</a> · <a href="https://imhaojie.github.io/PosterMELD/">Project page</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="230" align="center">
-      <a href="https://github.com/imhaojie/SKA-VCT"><img src="https://raw.githubusercontent.com/imhaojie/SKA-VCT/main/assets/teaser.jpg" width="220" alt="Listening to the Motion"></a>
-    </td>
-    <td>
-      <b><a href="https://github.com/imhaojie/SKA-VCT">Listening to the Motion: Audio-Conditioned Kinematic Verification for Robust Audio-Visual Segmentation</a></b><br>
-      <i>Under review</i><br>
-      <a href="https://github.com/imhaojie/SKA-VCT">Code</a>
-    </td>
-  </tr>
-</table>
-
-## 🚀 Projects
-
-<table>
-  <tr>
-    <td width="230" align="center">
-      <a href="https://github.com/imhaojie/BroadcastCode-2026"><img src="https://raw.githubusercontent.com/imhaojie/BroadcastCode-2026/main/docs/assets/project/demo-intro.jpg" width="220" alt="GameBuddy basketball video demo"></a>
-    </td>
-    <td>
-      <b><a href="https://github.com/imhaojie/BroadcastCode-2026">GameBuddy: AI Basketball Companion</a></b><br>
-      Turns basketball video and official game data into evidence-backed play breakdowns with AI commentary and an enhanced replay.<br>
-      <i>NBA × AWS BroadcastCode 2026 Hackathon, Zhuhai–Macau · Silver Award (2nd place)</i>
-    </td>
-  </tr>
-  <tr>
-    <td width="230" align="center">
-      <a href="https://github.com/imhaojie/draftcode"><img src="https://imhaojie.github.io/assets/thumbs/draftcode-architecture.jpg" width="220" alt="DraftCode"></a>
-    </td>
-    <td>
-      <b><a href="https://github.com/imhaojie/draftcode">DraftCode: NBA Draft War Room</a></b><br>
-      An auditable NBA draft prediction agent that fuses talent, expert mocks, and market signals across 30 GM personas and 1,500 Monte Carlo scenarios.<br>
-      <i>AWS Summit Shanghai 2026 Hackathon · Third place, advanced to the Macau round</i>
-    </td>
-  </tr>
-  <tr>
-    <td width="230" align="center">
-      <a href="https://github.com/imhaojie/VoxSprite"><img src="https://imhaojie.github.io/assets/thumbs/voxsprite-app.jpg" width="220" alt="VoxSprite"></a>
-    </td>
-    <td>
-      <b><a href="https://github.com/imhaojie/VoxSprite">VoxSprite</a></b><br>
-      Turns any voice into a playable instrument with Web Audio, an ESP32-S3, physical keys, and reactive LEDs.<br>
-      <i>Xiaohongshu AI Builder · Excellence Award</i>
-    </td>
-  </tr>
-  <tr>
-    <td width="230" align="center">
-      <a href="https://github.com/imhaojie/Stardew-Valley"><img src="https://imhaojie.github.io/assets/thumbs/stardew-title.jpg" width="220" alt="Stardew-Valley"></a>
-    </td>
-    <td>
-      <b><a href="https://github.com/imhaojie/Stardew-Valley">Stardew-Valley</a></b><br>
-      A Cocos2d-x systems project covering map interaction, character control, collision detection, inventory, and farming simulation mechanics.<br>
-      <i>Course project</i>
-    </td>
-  </tr>
-</table>
-
-## 🎓 Education
-
-- Expected 2027.09: Incoming Jointly Trained Ph.D. Student, [Shanghai Innovation Institute](https://www.sii.edu.cn/).
-- Expected 2027.09: Incoming Ph.D. Student, [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/).
-- 2023.09 - 2027.06 (expected): B.Eng., Software Engineering, [Tongji University](https://www.tongji.edu.cn/).
-
-## 🏅 Honors
-
-| | Award | Awarded by | Year |
-| :-: | --- | --- | --- |
-| 🥈 | **Silver Award (2nd Place)** | NBA × AWS BroadcastCode Hackathon, Zhuhai–Macau | 2026 |
-| 🏅 | **National Scholarship** | Ministry of Education of the People's Republic of China | 2026 |
-| 🏅 | **National Scholarship** | Ministry of Education of the People's Republic of China | 2025 |
-| 🏅 | **Qidi Scholarship** | Tongji University | 2026 |
-| 🏅 | **First-Class Outstanding Student Scholarship** | Tongji University | 2024 |
-| 🏅 | **Social Activity Scholarship** | Tongji University | 2025 |
-| 🏅 | **Social Activity Scholarship** | Tongji University | 2024 |
-| ⭐ | **Outstanding Student** | Tongji University | 2025 |
-| ⭐ | **Outstanding Student** | Tongji University | 2024 |
-| ⭐ | **Computer Science Youth Pioneer** | School of Computer Science and Technology, Tongji University | 2026 |
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-[![Skills](https://skillicons.dev/icons?i=python,pytorch,cpp,ts,react,vue,linux,git,aws,latex&perline=10)](https://skillicons.dev)
-
-</div>
+I work mainly with **Python and PyTorch** for research, and **TypeScript, C++, and AWS** for interactive systems. [Education and honors](https://imhaojie.github.io/#education)
